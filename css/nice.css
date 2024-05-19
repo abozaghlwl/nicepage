@@ -1,0 +1,152 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    height: 10vh;
+    background-color: #f2f2f2;
+    z-index: 9999;
+}
+.devices img{
+    margin-left: .4rem;
+    width: 37px;
+    padding: 5px;
+}
+.devices img:not(:nth-child(1)):hover{
+    background-color: #dbefff;
+
+}
+.devices :nth-child(1){
+    padding: 5px;
+    background-color: #c9e4f9;
+
+
+}
+main{
+    width: 100%;
+    height: 150vh;
+
+    position: relative;
+}
+footer{
+    padding: 2.6rem;
+
+}
+
+.head{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2{
+   
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 20px auto;
+}
+.img1{
+    width: 40%;
+    background-image: url(../image/back1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+
+
+}
+.img2{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/back2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover; 
+    width: 40%;
+    background-position: 50% 50%;    
+}
+.maincontain{
+    padding: 10px;
+    position: absolute;
+    top: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+.imgcontain{
+    padding: 2rem;
+    height: 100%;}
+.smimg{
+    display: flex;
+    border: 1px solid #ffff;
+    margin-bottom: 1rem;
+    padding:1.7rem ;
+}
+.smimg img{
+    object-fit: contain;
+    width: 50%;
+    height:50%;
+    
+}
+.smimg1{
+    position: relative;
+}
+.myimg{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.para{
+    margin-left: 4.5rem;
+    margin-top: -2rem;
+}
+.para h4{
+    font-size: 1.15rem;
+
+    line-height: 60px;
+    color: #fff;
+
+}
+.para p{
+    font-size:.92rem;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: .5rem;
+}
+footer{
+    background-color: #333333;
+    color: #fff;
+    font-size: small;
+}
+footer div{
+    width: 24%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+a{
+    color: #f2f2f2;
+}
